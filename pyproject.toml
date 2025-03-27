@@ -13,6 +13,13 @@ dependencies = [
     "pandas (>=2.2.3,<3.0.0)"
 ]
 
+[api]
+apikey = "llo"
+
+[supabase]
+password = "bskr"
+
+
 [tool.poetry]
 packages = [{include = "weatherdashboard_etl_project", from = "src"}]
 
