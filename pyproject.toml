@@ -16,6 +16,7 @@ dependencies = [
 [api]
 apikey = "llo"
 
+
 [supabase]
 password = "bskr"
 

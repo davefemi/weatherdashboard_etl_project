@@ -7,6 +7,7 @@ DATABASE="postgres"
 PORT="6543"
 USERNAME="postgres.hmewojubqiwirdnxklhc"
 
+
 "/Library/PostgreSQL/17/bin/psql" -h $SERVER -p $PORT -U $USERNAME $DATABASE
 RET=$?
 

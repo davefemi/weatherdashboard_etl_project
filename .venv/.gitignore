@@ -1,2 +1,2 @@
-./weatherdashboard_etl_project/src/weatherdashboard_etl_project/databaselogin.sh
-./weatherdashboard_etl_project/pyproject.toml
+pyproject.toml
+src/weatherdashboard_etl_project/databaselogin.sh
