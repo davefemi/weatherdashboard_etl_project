@@ -1,0 +1,30 @@
+[project]
+name = "weatherdashboard-etl-project"
+version = "0.1.0"
+description = "ETL pipelining for database for Weatherdashboard backend"
+authors = [
+    {name = "davefemi",email = "david.ojo@live.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "prefect (>=3.2.14,<4.0.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)"
+]
+
+[api]
+apikey = "llo"
+
+
+[supabase]
+password = "bskr"
+
+
+[tool.poetry]
+packages = [{include = "weatherdashboard_etl_project", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
